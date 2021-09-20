@@ -92,6 +92,5 @@ scheduleSubmit = driver.find_element_by_xpath(SCHEDULE_SUBMIT)
 w(1)
 scheduleSubmit.click()
 w(2)
-tweetButton = driver.find_element_by_xpath(
-)
+tweetButton = driver.find_element_by_xpath(TWEET_BUTTON)
 tweetButton.click()
