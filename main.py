@@ -23,23 +23,6 @@ EMAIL_INPUT_XPATH = '//*[@id="react-root"]/div/div/div[2]/main/div/div/div[2]/fo
 PSWD_INPUT_XPATH = '//*[@id="react-root"]/div/div/div[2]/main/div/div/div[2]/form/div/div[2]/label/div/div[2]/div/input'
 TWEET_INPUT_FIELD = '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div/div[2]/div[1]/div/div/div/div/div/div/div/div/div/label/div[1]/div/div/div/div/div[2]/div'
 SCHEDULE_BUTTON = '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div/div[2]/div[3]/div/div/div[1]/div[5]'
-SELECT_MONTH = '//*[@id="SELECTOR_1"]'
-SELECT_DAY = '//*[@id="SELECTOR_2"]'
-SELECT_YEAR = '//*[@id="SELECTOR_3"]'
-SELECT_HOUR = '//*[@id="SELECTOR_4"]'
-SELECT_HOUR1 = '//*[@id="SELECTOR_10"]'
-SELECT_HOUR2 = '//*[@id="SELECTOR_16"]'
-SELECT_HOUR3 = '//*[@id="SELECTOR_22"]'
-SELECT_MINUTE = '//*[@id="SELECTOR_5"]'
-SELECT_MINUTE1 = '//*[@id="SELECTOR_11"]'
-SELECT_MINUTE2 = '//*[@id="SELECTOR_17"]'
-SELECT_MINUTE3 = '//*[@id="SELECTOR_23"]'
-
-SELECT_AM_PM = '//*[@id="SELECTOR_6"]'
-SELECT_AM_PM1 = '//*[@id="SELECTOR_12"]'
-SELECT_AM_PM2 = '//*[@id="SELECTOR_18"]'
-SELECT_AM_PM3 = '//*[@id="SELECTOR_24"]'
-
 SCHEDULE_SUBMIT = '//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div[1]/div/div/div/div[3]/div/div'
 TWEET_BUTTON = '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div[1]/div/div[2]/div/div[2]/div[1]/div/div/div/div[2]/div[4]/div/div/div[2]/div[4]'
 
