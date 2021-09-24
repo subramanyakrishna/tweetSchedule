@@ -15,7 +15,8 @@ tweets = pd.read_excel('tweet.xlsx')
 # install all required packages
 # pip install selenium
 # pip install webdriver_manager
-
+# pip install pandas
+# pip install openpyxl
 PATH = './chromedriver.exe'  # this is for chrome version 93  download from https://sites.google.com/a/chromium.org/chromedriver/downloads and put it in the same folder as this file
 # you can view chrome version in chrome://version, paste this in url bar and see the version number and downlaod corresponding version of chromedriver
 CHROME_PATH = "\\AppData\\Local\\Google\\Chrome\\User Data\\Default"
@@ -109,6 +110,7 @@ for key, row in tweets.iterrows():
     hour = hour.lstrip("0")
     min = min.lstrip("0")
     day = day.lstrip("0")
+
     month = month.lstrip("0")
     year = year.lstrip("0")
 
